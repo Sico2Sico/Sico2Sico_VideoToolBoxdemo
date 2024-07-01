@@ -15,6 +15,7 @@
 		07DBA2721EF619610054E64B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DBA2701EF619610054E64B /* LaunchScreen.storyboard */; };
 		07DBA27D1EF619E90054E64B /* VideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DBA27C1EF619E90054E64B /* VideoEncoder.m */; };
 		07DBA2801EF620AB0054E64B /* VideoCamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DBA27F1EF620AB0054E64B /* VideoCamer.m */; };
+		2EF0C1992C327A7C00EF259B /* H265Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0C1972C327A7C00EF259B /* H265Decoder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		07DBA27C1EF619E90054E64B /* VideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEncoder.m; sourceTree = "<group>"; };
 		07DBA27E1EF620AB0054E64B /* VideoCamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCamer.h; sourceTree = "<group>"; };
 		07DBA27F1EF620AB0054E64B /* VideoCamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCamer.m; sourceTree = "<group>"; };
+		2EF0C1972C327A7C00EF259B /* H265Decoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H265Decoder.m; sourceTree = "<group>"; };
+		2EF0C1982C327A7C00EF259B /* H265Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H265Decoder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 		07DBA27A1EF619C60054E64B /* VideoToolBox */ = {
 			isa = PBXGroup;
 			children = (
+				2EF0C1982C327A7C00EF259B /* H265Decoder.h */,
+				2EF0C1972C327A7C00EF259B /* H265Decoder.m */,
 				07DBA27E1EF620AB0054E64B /* VideoCamer.h */,
 				07DBA27F1EF620AB0054E64B /* VideoCamer.m */,
 				07DBA27B1EF619E90054E64B /* VideoEncoder.h */,
@@ -146,6 +151,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -182,6 +188,7 @@
 				07DBA2671EF619610054E64B /* AppDelegate.m in Sources */,
 				07DBA2641EF619610054E64B /* main.m in Sources */,
 				07DBA2801EF620AB0054E64B /* VideoCamer.m in Sources */,
+				2EF0C1992C327A7C00EF259B /* H265Decoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +349,7 @@
 				07DBA2781EF619610054E64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
